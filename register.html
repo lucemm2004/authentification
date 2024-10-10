@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Inscription</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Inscription</h1>
+            <form action="register.php" method="post">
+                <div class="usernameContainer">
+                    <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        placeholder="Votre nom..."
+                        required
+                    />
+                </div>
+                <div class="emailContainer">
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Votre email..."
+                        required
+                    />
+                </div>
+                <div class="passwordContainer">
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        placeholder="Votre mot de passe..."
+                        required
+                    />
+                </div>
+                <div class="submitContainer">
+                    <button type="submit" name="submit" id="btnSubmit">
+                        Inscription
+                    </button>
+                </div>
+            </form>
+
+            <div class="optionsContainer">
+                <div></div>
+                <div class="loginContainer">
+                    <p class="loginQuestion">
+                        <a href="login.html">Déjà inscrit(e) ?</a>
+                    </p>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Connexion</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Connexion</h1>
+            <form action="login.php" method="post">
+                <div class="emailContainer">
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Votre email..."
+                        required
+                    />
+                </div>
+                <div class="passwordContainer">
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        placeholder="Votre mot de passe..."
+                        required
+                    />
+                </div>
+                <div class="rememberContainer">
+                    <input type="checkbox" name="remember" id="remember" />
+                    <label for="remember">Se souvenir de moi</label>
+                </div>
+                <div class="submitContainer">
+                    <button type="submit" name="submit" id="btnSubmit">
+                        Connexion
+                    </button>
+                </div>
+            </form>
+
+            <div class="optionsContainer">
+                <!--
+                <div class="rememberContainer">
+                    <input type="checkbox" name="remember" id="remember" />
+                    <label for="remember">Se souvenir de moi</label>
+                </div>
+                -->
+                <div></div>
+                <div class="registerContainer">
+                    <p class="registerQuestion">
+                        <a href="register.html">Pas encore inscrit(e) ?</a>
+                    </p>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </body>
+</html>
